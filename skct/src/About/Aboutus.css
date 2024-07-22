@@ -1,0 +1,158 @@
+/* Aboutus.css */
+.navbar {
+  background-color: white; /* Change navbar background color */
+  color: black; /* Change navbar text color */
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.logo-space {
+  flex: 1;
+}
+
+.logo-space h1 {
+  color: black; /* Change logo text color */
+  margin-right: 780px;/* Adjust margin-right as needed */
+  font-family: 'Bodoni Moda', serif;
+  margin-top: -30px;
+}
+
+.logo-space img {
+  margin-left: 20px;
+}
+
+.nav-links {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white; /* Change nav-links text color */
+  text-decoration: none;
+  margin-left: 10px;
+}
+.about-us {
+  width: 100%;
+  max-width: 8000px;
+  margin: 0 auto;
+  padding: 0px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px rgba(190, 41, 41, 0.1);
+  animation: fadeIn 1s ease;
+  display: grid;
+  grid-template-columns: 355px 355px 355px 355px;
+  column-gap: 10px;
+  padding: auto;
+  margin-top: 100px;
+}
+.cv{
+  border-radius: 10%;
+  background-image:url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=400');
+}
+.zz{
+  color:black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 50px;
+}
+.pp{
+  color:  #1505f9;
+  font-size:large;
+  font-style: italic;
+  color: black;
+  
+}
+.about-us h2 {
+  font-size: 36px;
+  color: #9f8787;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+}
+
+.about-us h3 {
+  font-size: 28px;
+  color: #eb0a0a;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.about-us p {
+  font-size: 18px;
+  color: #091fe9;
+  line-height: 1.6;
+  color: black;
+}
+
+.about-us ul {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.about-us ul li {
+  font-size: 18px;
+  color:black;
+  margin-bottom: 8px;
+}
+
+.about-us ul li:before {
+  content: "\2022"; /* Bullet character */
+  color: #0b78ed; /* Bullet color */
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.about-us .contact-info p {
+  font-size: 18px;
+  color: #666666;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.about-us .contact-info p svg {
+  margin-right: 8px;
+  
+}
+
+.about-us .contact-info p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.about-us .contact-info p a:hover {
+  text-decoration: underline;
+}
+
+/* Highlighted Background for Contact Info */
+.about-us .contact-info p {
+  background-color: #f0f8ff;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-200px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+.nav-links{
+  background-color: #282929;
+  padding: 10px;
+  border-radius: 15px;
+}
+#ig{
+  color: black;
+}
+
+.profile-icon-img {
+  width: 40px !important; /* Adjust the width as per your requirement */
+  height: 40px !important; /* Adjust the height as per your requirement */
+}

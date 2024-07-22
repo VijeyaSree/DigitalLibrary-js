@@ -1,0 +1,18 @@
+#qw{
+ margin-left:200px ;
+ margin-right:200px ;
+ margin-top: 50px;
+
+}
+#as{
+    border-top-left-radius:15px ;
+    border-bottom-left-radius: 15px;
+}
+#df{
+    border-top-right-radius:15px ;
+    border-bottom-right-radius: 15px;
+   background-image:url('https://img.freepik.com/free-photo/colorful-tie-dye-background-with-abstract-watercolor-border_53876-104889.jpg?size=626&ext=jpg&ga=GA1.1.1989116567.1708351209&semt=ais') ;
+}
+#im{
+    border-radius:50% ;
+}

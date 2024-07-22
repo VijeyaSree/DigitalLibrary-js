@@ -1,0 +1,113 @@
+/* Download.css */
+
+.download-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-top: 60px;
+}
+body{
+  background-image: url("https://img.freepik.com/free-photo/3d-rendering-classic-interior_23-2150943457.jpg?w=1060&t=st=1709265958~exp=1709266558~hmac=fbe155c6c13fb9cc971cf02d95499437163b31d424d656811f7e960576dc4c1e");
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.library-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.library-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.library-item:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  margin-bottom: 15px;
+  color: #666;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.user-details {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-details h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.user-details form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.user-details label {
+  font-weight: bold;
+  color: #333;
+}
+
+.user-details input[type="text"],
+.user-details input[type="email"],
+.user-details input[type="tel"],
+.user-details select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.user-details button {
+  grid-column: span 2;
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-details button:hover {
+  background-color: #45a049;
+}

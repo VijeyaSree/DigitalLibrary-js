@@ -1,0 +1,116 @@
+/* Profile Page Styles */
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    max-width: 700px; /* Adjust for responsiveness */
+    margin: 0 auto; /* Center the page horizontally */
+    font-family: Arial, sans-serif; /* Base font for readability */
+    background-color: #f5f5f5; /* Light gray background */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    border-radius: 4px; /* Rounded corners for the entire page */
+    margin-top: 50px;
+  }
+  
+  .profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #fff; /* White border at the bottom */
+    padding-bottom: 1rem;
+  }
+  
+  .profile-icon {
+    position: relative; /* For hover effect */
+    cursor: pointer; /* Indicate clickable behavior */
+  }
+  
+  .profile-icon img {
+    border-radius: 50%; /* Circular profile picture */
+    width: 150px; /* Adjust image size as needed */
+    height: 150px;
+    object-fit: cover; /* Maintain aspect ratio */
+    border: 4px solid #fff; /* White border for the profile picture */
+  }
+  
+  .profile-icon::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent overlay on hover */
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .profile-icon:hover::after {
+    opacity: 1; /* Show overlay on hover */
+  }
+  
+  .profile-header h2,
+  .profile-header p {
+    margin: 0.5rem 0;
+  }
+  
+  .profile-header h2 {
+    font-size: 1.5rem; /* Adjust heading size */
+    font-weight: bold;
+    color: #333; /* Darker text for better contrast */
+  }
+  
+  .profile-header p {
+    font-size: 1rem; /* Adjust paragraph size */
+    color: #888; /* Light gray for email */
+  }
+  
+  .profile-body {
+    width: 100%;
+    padding-top: 1rem; /* Add some padding inside the white border */
+  }
+  
+  .profile-body h3 {
+    font-size: 1.2rem; /* Adjust heading size */
+    margin-bottom: 1rem;
+    color: #4CAF50; /* Green for headings */
+  }
+  
+  .profile-body p {
+    line-height: 1.5; /* Adjust line spacing for readability */
+    margin-bottom: 1rem;
+    color: #666; /* Darker gray for body text */
+  }
+  
+  .profile-body button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle button shadow */
+  }
+  
+  .profile-body button:hover {
+    background-color: #f0f0f0; /* Lighter background on hover */
+  }
+  
+  .profile-body .save-button {
+    background-color: #4CAF50; /* Green for save button */
+    color: white;
+  }
+  
+  .profile-body .cancel-button {
+    background-color: #ddd; /* Gray for cancel button */
+    color: #333;
+  }
+  
+  /* Input fields (for edit mode) */
+  .profile-body input,
+  .profile-body textarea {
+    padding: 0.8rem 1rem;
+    border: 1px solid;
+  }
